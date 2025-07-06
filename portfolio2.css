@@ -1,0 +1,229 @@
+@import url('https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(10, 10, 10);
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 800px;
+  padding-top: 35px;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.never {
+  background: linear-gradient(to bottom, rgb(10, 10, 10), rgba(36, 35, 35, 0.87));
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.never h2 {
+  font-size: 3.375rem;
+  margin-bottom: 20px;
+}
+
+.never h1 {
+  font-size: 6rem;
+}
+
+.gle {
+  background-color: rgba(36, 35, 35, 0.87);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.gle .glc {
+  max-width: 600px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.gle .glc p {
+  margin-bottom: 20px;
+}
+
+.gle img {
+  border-style: solid;
+  border-radius: 50px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.gle h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.poto {
+  background: linear-gradient(to bottom, rgba(36, 35, 35, 0.87), rgba(66, 41, 0, 0.788));
+  height: auto;
+  color: white;
+  padding: 50px 20px;
+}
+
+.poto h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.poto ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+}
+
+.poto ul li {
+  text-align: center;
+  border-style: solid;
+  border-radius: 30px;
+  padding-bottom: 15px;
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+}
+
+.poto ul li img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.poto ul li p {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.poto ul li a {
+  text-decoration: none;
+  color: darkgrey;
+  border-style: solid;
+  border-radius: 8px;
+  font-size: large;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .never h1 {
+    font-size: 3rem;
+  }
+
+  .never h2 {
+    font-size: 2rem;
+  }
+
+  .gle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gle h1 {
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+
+  .gle .glc {
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .gle img {
+    max-width: 90%;
+    margin: 0;
+  }
+
+  .poto ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .poto ul li {
+    width: 90%;
+  }
+
+  .poto ul li p {
+    font-size: 20px;
+  }
+}
+footer{
+  background-color:  rgba(66, 41, 0, 0.788);
+  color: white;
+  height: auto;
+  text-align: center;
+}
+footer ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul li a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+footer div p{
+   max-width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+}
+footer .koko,.koki {
+  font-size: 40px;
+  color: black;
+}
+.gla{
+  background-color: rgba(36, 35, 35, 0.87) ;
+  height: auto;
+  text-align: center;
+}
+.gla p{
+  padding-bottom: 26px;
+  text-decoration: none;
+
+}
+.gla p a{
+  text-decoration: none;
+  color: aliceblue;
+  border-style:solid ;
+  border-radius:10px;
+}
